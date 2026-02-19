@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Épreuve E5 | Loïc CHENG</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="page e5-page">
+  <nav class="nav">
+    <div class="container">
+      <div class="container">
+     <div class="nav-inner">
+  <div class="brand">
+  <a href="index.html" class="logo-link">
+    <div class="logo"><span>LC</span></div>
+  </a>
+</div>
+
+  <div class="links">
+    <a data-nav href="index.html">Accueil</a>
+    <a data-nav href="profil.html">Profil</a>
+    <a data-nav href="bts-sio.html">BTS SIO</a>
+    <a data-nav href="epreuve-e5.html">Épreuve E5</a>
+    <a data-nav href="epreuve-e6.html">Épreuve E6</a>
+    <a data-nav href="veille.html">Veille</a>
+  </div>
+
+  <div class="nav-cta">
+    <a class="btn primary" data-nav href="contact.html">Contactez-moi</a>
+  </div>
+
+    </div>
+  </nav>
+
+  <main>
+    <div class="container">
+      <div class="section-head reveal">
+        <div>
+          <h2 class="page-title">Épreuve E5</h2>
+          <p>Mes missions et leurs documentations associées.</p>
+        </div>
+      </div>
+
+      <!-- Duplique ce bloc pour chaque mission -->
+      <div class="card reveal">
+        <div class="item">
+          <div class="meta">
+            <div class="title">Documentation 1 : <span style="color:var(--muted); font-weight:700;">Mise en place d’un réseau avec VLAN, machine virtuelle</span></div>
+          </div>
+          <a class="btn primary" href="assets/docs/documentation1-e5.pdf" target="_blank" rel="noopener">Voir la documentation</a>
+        </div>
+      </div>
+
+      <div class="card reveal">
+        <div class="item">
+          <div class="meta">
+            <div class="title">Documentation 2 : <span style="color:var(--muted); font-weight:700;">Mise en place d’un réseau d’entreprise avec VLAN, switch L3, DHCP et point d’accès Wi-FI</span></div>
+          </div>
+          <a class="btn primary" href="assets/docs/documentation2-e5.pdf" target="_blank" rel="noopener">Voir la documentation</a>
+        </div>
+      </div>
+
+      <!-- etc. -->
+    </div>
+  </main>
+
+  <div class="footer"><div class="container">© <span id="year"></span> Loïc CHENG</div></div>
+  <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+  <script src="script.js"></script>
+</body>
+</html>

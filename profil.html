@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Profil | Loïc CHENG</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="page">
+  <nav class="nav">
+    <div class="container">
+     <div class="nav-inner">
+
+ <div class="brand">
+  <a href="index.html" class="logo-link">
+    <div class="logo"><span>LC</span></div>
+  </a>
+</div>
+
+  <div class="links">
+    <a data-nav href="index.html">Accueil</a>
+    <a data-nav href="profil.html">Profil</a>
+    <a data-nav href="bts-sio.html">BTS SIO</a>
+    <a data-nav href="epreuve-e5.html">Épreuve E5</a>
+    <a data-nav href="epreuve-e6.html">Épreuve E6</a>
+    <a data-nav href="veille.html">Veille</a>
+  </div>
+
+  <div class="nav-cta">
+    <a class="btn primary" data-nav href="contact.html">Contactez-moi</a>
+  </div>
+
+</div>
+
+  </nav>
+
+  <main>
+    <div class="container">
+      <div class="section-head reveal">
+        <div>
+          <h2 class="page-title">A propos de moi</h2>
+          <p>Présentation, parcours et objectif.</p>
+        </div>
+      </div>
+
+      <div class="card reveal">
+        <p style="margin:0; color:rgba(255,255,255,.88); font-weight:650;">
+          Je m'appelle Loïc CHENG, j’ai 18 ans et j'ai obtenu mon baccalauréat général avec les spécialités Mathématiques
+          et Sciences économiques et sociales. Attiré depuis longtemps par le monde de l’informatique, j’ai choisi de
+          poursuivre mes études en BTS Services Informatiques aux Organisations (SIO), spécialité SISR. À terme, mon objectif
+          est de poursuivre vers un master, afin de me spécialiser dans les réseaux et la cybersécurité. Je souhaite devenir
+          un professionnel capable de concevoir, sécuriser et optimiser des infrastructures complexes, et d'apporter des solutions
+          fiables aux organisations.
+        </p>
+      </div>
+
+      <hr class="sep" />
+
+      <div class="section-head reveal">
+        <div>
+          <h2>Certifications</h2>
+          
+        </div>
+      </div>
+
+      <div class="badges reveal">
+        <!-- Remplace les href par tes liens d’attestation -->
+        <a class="badge" href="assets/docs/cisco-intro.pdf" target="_blank" rel="noopener">
+          <img src="assets/badges/cisco-intro.png" alt="Cisco Introduction to Cybersecurity">
+          <div>
+            <div class="t">Cisco</div>
+            <div class="s">Introduction to Cybersecurity</div>
+          </div>
+        </a>
+
+        <a class="badge" href="assets/docs/cisco-networking.pdf" target="_blank" rel="noopener">
+          <img src="assets/badges/cisco-networking.png" alt="Cisco Networking Basics">
+          <div>
+            <div class="t">Cisco</div>
+            <div class="s">Networking Basics</div>
+          </div>
+        </a>
+
+        <a class="badge" href="assets/docs/mooc-anssi.pdf" target="_blank" rel="noopener">
+          <img src="assets/badges/mooc-anssi.png" alt="MOOC ANSSI">
+          <div>
+            <div class="t">MOOC ANSSI</div>
+            <div class="s">Attestation</div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </main>
+
+  <div class="footer"><div class="container">© <span id="year"></span> Loïc CHENG</div></div>
+  <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+  <script src="script.js"></script>
+</body>
+</html>

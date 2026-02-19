@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Accueil | Loïc CHENG</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="home">
+  <nav class="nav">
+    <div class="container">
+      <div class="nav-inner">
+
+  <div class="brand">
+  <a href="index.html" class="logo-link">
+    <div class="logo"><span>LC</span></div>
+  </a>
+</div>
+
+  <div class="links">
+    <a data-nav href="index.html">Accueil</a>
+    <a data-nav href="profil.html">Profil</a>
+    <a data-nav href="bts-sio.html">BTS SIO</a>
+    <a data-nav href="epreuve-e5.html">Épreuve E5</a>
+    <a data-nav href="epreuve-e6.html">Épreuve E6</a>
+    <a data-nav href="veille.html">Veille</a>
+  </div>
+
+  <div class="nav-cta">
+    <a class="btn primary" data-nav href="contact.html">Contactez-moi</a>
+  </div>
+
+</div>
+
+
+
+  </nav>
+
+<main class="hero">
+  <div class="container">
+    <div class="hero-grid reveal">
+
+      <!-- TEXTE A GAUCHE -->
+      <div class="hero-left">
+
+        <h1 class="hero-title">
+          Loïc <span class="grad">CHENG</span>
+        </h1>
+
+        <div class="typewriter" style="margin: 6px 0 12px;">
+          <span id="typeTarget" data-text="Bienvenue."></span>
+          <span class="cursor"></span>
+        </div>
+
+        <p class="subtitle">
+          Etudiant en BTS SIO option SISR
+        </p>
+
+        <a class="btn primary btn-lg" href="profil.html">
+          En savoir plus
+        </a>
+
+      </div>
+
+      <!-- IMAGE A DROITE -->
+      <div class="hero-right">
+        <img src="assets/hero.png" alt="Illustration" class="hero-image">
+      </div>
+
+    </div>
+  </div>
+</main>
+
+
+
+
+
+  <div class="footer">
+    <div class="container">© <span id="year"></span> Loïc CHENG</div>
+  </div>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+  <script src="script.js"></script>
+</body>
+</html>
